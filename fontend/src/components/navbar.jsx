@@ -1,5 +1,5 @@
 import "./style.css";
-
+import { Link } from "react-router-dom"
 export const Navbar = () => {
   return (
     <div className="Navbar">
@@ -65,8 +65,7 @@ export const Navbar = () => {
           <h4
             id="hover"
             style={{ color: "rgb(175, 168, 168)", marginLeft: "2%" }}
-          >
-            Category
+          ><Link style={{ color: "rgb(175, 168, 168)" }} to="/category">Category ▼</Link>
           </h4>
           <div className="dropdown" style={{ width: "7.5%", marginLeft: "2%" }}>
             <h4 id="hover" className="gap_word">
@@ -86,7 +85,7 @@ export const Navbar = () => {
             <div class="dropdown-content">
               <a>News Details</a>
               <a>Contact page</a>
-              <a>Sign in</a>
+              <a><Link style={{ color: "white" }} to="/signin">Sign In</Link></a>
               <a>Sign up</a>
               <a>404 Page</a>
             </div>

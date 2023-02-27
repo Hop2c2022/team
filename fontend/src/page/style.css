@@ -1,3 +1,118 @@
 .Home {
   width: 100%;
 }
+body{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+.Container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.middleParts{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  flex-direction: column;
+}
+.news{
+  display: flex;
+  flex-direction: row;
+}
+.signin{
+  width: 500px;
+  height: 600px;
+  background-color: #292b2d;
+  border-radius: 10px;
+}
+.signers{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+  align-items: center;
+}
+.ug{
+  color: #818387;
+  margin-top: 30px;
+}
+.gol{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4%;
+}
+.name{
+  border-bottom: black solid 1px;
+  height: 25px;
+}
+.userloginInput{
+  width: 440px;
+  height: 40px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin-top: 5px;
+  border-radius: 4px;
+  padding-left: 20px;
+  color: white;
+}
+.userloginButton{
+  width: 450px;
+  height: 40px;
+  background-color: rgb(240, 8, 8);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.donthave{
+  color: white;
+  margin-top: 20px;
+}
+.zugeerl{
+  width: 450px;
+  height: 45px;
+  background-color: #0d0d0d;
+  border: none;
+  border-radius: 6px;
+  margin-top: 30px;
+  color: #283961;
+  font-weight: bolder;
+  padding-right: 130px;
+}
+.zurag{
+  background-image: url(../images/facebook.png);
+  width: 60px;
+  margin-right: 10px;
+  height: 44px;
+  background-size: 100%;
+  position: absolute;
+  top: 637px;
+  left: 895px;
+}
+.zugeerl2{
+  width: 450px;
+  height: 45px;
+  background-color: #0d0d0d;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  color: #c9060d;
+  font-weight: bolder;
+  padding-right: 110px;
+}
+.zurag2{
+  background-image: url(../images/gmail.png);
+  width: 60px;
+  margin-right: 10px;
+  height: 44px;
+  background-size: 100%;
+  position: absolute;
+  top: 703px;
+  left: 895px;
+}
