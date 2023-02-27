@@ -1,3 +1,4 @@
+import "../styles/SignUp.css";
 export const SignUp = () => {
   return (
     <div
@@ -150,13 +151,139 @@ export const SignUp = () => {
             placeholder="*********"
           />
         </div>
-        <div className="Login">
+        <div className="Login">Login</div>
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <div
+            style={{
+              color: "white",
+              fontWeight: "500",
+              fontSize: "16px",
+              marginTop: "20px",
+            }}
+          >
+            Already have an account?
+          </div>
+          <div
+            style={{
+              color: "red",
+              fontWeight: "500",
+              fontSize: "16px",
+              marginLeft: "5px",
+              marginTop: "21px",
+            }}
+          >
             Login
+          </div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div
+          style={{
+            color: "red",
+            fontWeight: "500",
+            fontSize: "16px",
+            marginLeft: "5px",
+            marginTop: "21px",
+          }}
+        >
+          Forgot your password?
+        </div>
+        <div
+          style={{
+            backgroundColor: "black",
+            width: "465px",
+            height: "45px",
+            display: "flex",
+            flexDirection: "row",
+            borderRadius: "5px",
+            marginTop: "25px",
+          }}
+        >
+          <div
+            style={{
+              width: "60px",
+              height: "45px",
+              backgroundColor: "#2e4374",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              borderRight: "1px solid white",
+              borderTopLeftRadius: "5px",
+              borderBottomLeftRadius: "5px",
+            }}
+          >
+            <img
+              style={{
+                width: "24px",
+                height: "24px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              src="facebook-app-symbol.png"
+              alt=""
+            />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              color: "#2e4374",
+              justifyContent: "center",
+              alignItems: "center",
+              paddingLeft: "20px",
+              fontWeight: "500",
+            }}
+          >
+            LOGIN WITH FACEBOOK
+          </div>
+        </div>
+        <div
+          style={{
+            backgroundColor: "black",
+            width: "465px",
+            height: "45px",
+            display: "flex",
+            flexDirection: "row",
+            borderRadius: "5px",
+            marginTop: "30px",
+          }}
+        >
+          <div
+            style={{
+              width: "60px",
+              height: "45px",
+              backgroundColor: "#c9060d",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              borderRight: "1px solid white",
+              borderTopLeftRadius: "5px",
+              borderBottomLeftRadius: "5px",
+            }}
+          >
+            <img
+              style={{
+                width: "27px",
+                height: "27px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              src="google-plus.png"
+              alt=""
+            />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              color: "#c9060d",
+              justifyContent: "center",
+              alignItems: "center",
+              paddingLeft: "20px",
+              fontWeight: "500",
+            }}
+          >
+            LOGIN WITH GOOGLE PLUS
+          </div>
+        </div>
       </div>
       aaaaaaaaa
     </div>
