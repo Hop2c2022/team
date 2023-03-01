@@ -84,7 +84,7 @@ export const Navbar = () => {
               Pages
             </h4>
             <div class="dropdown-content">
-              <a>News Details</a>
+              <a href="/News">News details</a>
               <a>Contact page</a>
               <a>Sign in</a>
               <a>Sign up</a>
