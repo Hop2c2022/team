@@ -88,7 +88,7 @@ export const Navbar = () => {
               <a>Contact page</a>
               <a>Sign in</a>
               <a>Sign up</a>
-              <a>404 Page</a>
+              <a href="/D404">404 Page</a>
             </div>
           </div>
 
