@@ -1,4 +1,5 @@
 import { Navbar } from "../components/navbar";
+import { Link } from "react-router-dom";
 import "../App.css";
 export const Not = () => {
   return (
@@ -29,9 +30,9 @@ export const Not = () => {
           <img src="../Logo.png" />
           <h1>404</h1>
           <p className="page">Page Not Found</p>
-          <button href="/" className="btn">
+          <Link to="/" className="btn">
             Back to home
-          </button>
+          </Link>
         </div>
       </div>
     </div>
