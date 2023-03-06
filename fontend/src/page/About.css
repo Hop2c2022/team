@@ -1,0 +1,30 @@
+.About {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(41, 43, 45);
+  height: 19vw;
+}
+
+.flexee {
+  width: 58vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 19vw;
+  margin-top: -20px;
+}

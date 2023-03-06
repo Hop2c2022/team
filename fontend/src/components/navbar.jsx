@@ -1,4 +1,5 @@
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
@@ -9,7 +10,11 @@ export const Navbar = () => {
             Breaking News
           </h3>
           <div
-            style={{ width: "1px", height: "5vh", backgroundColor: "white" }}
+            className="test"
+            style={{
+              width: "1px",
+              height: "5vh",
+            }}
           ></div>
           <div className="box">
             <h5 className="margin">
@@ -38,7 +43,9 @@ export const Navbar = () => {
         >
           <div className="dropdown" style={{ width: "5.5%" }}>
             <h4 id="hover" className="gap_word">
-              Home
+              <Link style={{ textDecoration: "none", color: "white" }} to={"/"}>
+                Home
+              </Link>
             </h4>
           </div>
           <div className="dropdown" style={{ width: "6.5%", marginLeft: "1%" }}>
@@ -76,7 +83,12 @@ export const Navbar = () => {
           </div>
 
           <h4 id="hover" className="gap_word">
-            About
+            <Link
+              style={{ textDecoration: "none", color: "white" }}
+              to={"/about"}
+            >
+              About
+            </Link>
           </h4>
 
           <div className="dropdown" style={{ width: "%", marginLeft: "2%" }}>
@@ -84,11 +96,15 @@ export const Navbar = () => {
               Pages
             </h4>
             <div class="dropdown-content">
-              <a href="/News">News details</a>
-              <a>Contact page</a>
-              <a>Sign in</a>
+              <a>News Details</a>
+
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to={"/signin"}
+              >
+                Sign in
+              </Link>
               <a>Sign up</a>
-              <a href="/D404">404 Page</a>
             </div>
           </div>
 

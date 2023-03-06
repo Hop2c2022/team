@@ -18,6 +18,7 @@ export const News = () => {
           height: "120vh",
           backgroundColor: "black",
           padding: "30px",
+          borderRadius: "5px",
         }}
       >
         <div
@@ -25,9 +26,13 @@ export const News = () => {
             display: "flex",
             flexDirection: "column",
             backgroundColor: "#292b2d",
+            borderRadius: "5px",
           }}
         >
-          <img src="details.jpeg"></img>
+          <img
+            style={{ borderRadius: "5px" }}
+            src="https://lh3.googleusercontent.com/Cl60OXgpPNqSzdt21F4DB-bHp_noT6oFkbM8VS6vG2LLQZRWA4GcEVBIShUf1k8g-OP6v_R-GB-DpK7ZgaIjl97q6fs4wpIXyAVKguMx"
+          ></img>
           <div
             style={{
               fontStyle: "inherit",
