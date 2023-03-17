@@ -1,11 +1,11 @@
 import { PictureLittle } from "./PictureLittle";
 
-export const Lastlittle = ({ title, src, date, view, like }) => {
+export const Lastlittle = ({ title, src, date, view, like ,word}) => {
   return (
     <div className="first5">
-      <PictureLittle width={"300px"} height={"180px"} src={src} />
+      <PictureLittle width={"360px"} height={"180px"} src={src} />
       <div className="row2">
-        <div className="title" style={{ marginTop: "10px" }}>
+        <div className="titlebold" style={{ marginTop: "10px" }}>
           {title}
         </div>
         <div className="medku">
@@ -16,6 +16,7 @@ export const Lastlittle = ({ title, src, date, view, like }) => {
           <div className="like"></div>
           <div className="dvl2">{like}</div>
         </div>
+        <div className="littlelastword">{word}</div>
       </div>
     </div>
   );

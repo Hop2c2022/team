@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./page/home";
 import { About } from "./page/about";
 import { SignIn } from "./page/signIn";
-import { News } from "./page/news";
+import { News } from "./page/News";
 import { Category } from "./page/catagory";
 
 function RoutesApp() {

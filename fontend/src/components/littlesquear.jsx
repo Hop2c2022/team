@@ -4,7 +4,7 @@ export const LitteS = ({ title, src, date, view, like }) => {
   return (
     <div className="first3">
       <div className="first_bottom">
-        <PictureSquare width={"255px"} height={"120px"} src={src} />
+        <PictureSquare width={"285px"} height={"170px"} src={src} />
       </div>
       <div className="title">{title}</div>
       <div className="medku">

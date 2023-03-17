@@ -15,6 +15,18 @@
   background-color: black;
   margin: 1%;
   border-radius: 5px;
+  position: relative;
+  overflow: hidden; 
+  transform: scale(1);
+  display: block;
+  transition: all 0.3s;
+  box-shadow: inset 0px -230px 107px -115px black;
+}
+
+.bigImg:hover {
+  transform: scale(1.02);
+  /* box-shadow: inset 0px -210px 97px -47px black */
+  box-shadow: inset 0px -210px 146px -47px black
 }
 
 .miniImg1 {
@@ -31,8 +43,16 @@
   align-items: end;
   flex-direction: column;
   justify-content: end;
+  transform: scale(1);
+  display: block;
+  transition: all 0.3s;
+  box-shadow: inset 0px -230px 107px -115px black;
 }
 
+.miniImg1:hover {
+  transform: scale(1.02);
+  box-shadow: inset 0px -210px 146px -47px black
+}
 .miniImg2 {
   background-image: url("https://chtstudio.com/demo/news/images/post/featured2.jpg");
   background-repeat: no-repeat;
@@ -47,6 +67,15 @@
   align-items: end;
   flex-direction: column;
   justify-content: end;
+  transform: scale(1);
+  display: block;
+  transition: all 0.3s;
+  box-shadow: inset 0px -230px 107px -115px black;
+}
+
+.miniImg2:hover {
+  transform: scale(1.02);
+  box-shadow: inset 0px -210px 146px -47px black
 }
 
 .longImg {
@@ -58,6 +87,14 @@
   background-color: black;
   margin: 1%;
   border-radius: 5px;
+  transform: scale(1);
+  display: block;
+  transition: all 0.3s;
+  
+}
+
+.longImg:hover {
+  transform: scale(1.02);
 }
 
 .Images {
@@ -82,11 +119,11 @@
   margin-bottom: 5%;
 }
 
-.boxShadow {
+/* .boxShadow {
   width: 100%;
-  box-shadow: 0 0 150px 100px black;
+  box-shadow: 0 0 150px 100px black inset;
   position: inherit;
-}
+} */
 
 .imgTitle {
   width: 100%;
@@ -243,7 +280,7 @@ body {
 }
 .Worlds {
   box-sizing: inherit;
-  width: 732px;
+  width: 832px;
 }
 .word {
   border-bottom: 2px solid #e6e6e8;
@@ -256,7 +293,18 @@ body {
   height: 10px;
   border-radius: 100%;
   border: none;
-  margin-left: 2px;
+  margin-left: 1px;
+  opacity: 0.6;
+  transition: 0.3s;
+  color: white;
+  }
+  .titlehover:hover{
+    color: rgb(255, 42, 42);
+    opacity: 1;
+}
+.but:hover{
+  animation-duration: 3s;
+  background-color: #c9060d;
 }
 .ydargaa {
   display: flex;
@@ -265,11 +313,13 @@ body {
 }
 .hell {
   padding-top: 24px;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 .de {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
 }
 
 .LeftSide {
@@ -287,13 +337,25 @@ body {
 }
 .Worlds2 {
   box-sizing: inherit;
-  width: 826px;
+  width: 906px;
+}
+.Worlds5{
+  box-sizing: inherit;
+  width: 906px;
+  margin-top: 80px;
 }
 .tom {
   width: 405px;
   height: 230px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  transform: scale(1);
+  display: block;
+  transition: all 0.3s;
+}
+
+.tom:hover {
+  transform: scale(1.02);
 }
 .dvl3 {
   margin-left: 10px;
@@ -309,22 +371,69 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
+  justify-content: space-between;
+  width: 900px;
 }
 .discount2 {
-  width: 805px;
+  width: 895px;
   height: 60px;
   margin-top: 30px;
 }
 .hoh {
   background-color: #292b2d;
-  width: 597px;
+  width: 690px;
   height: 420px;
   border-radius: 5px;
   margin-top: 20px;
 }
 .huge {
-  width: 597px;
+  width: 690px;
   height: 310px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  transform: scale(1);
+  display: block;
+  transition: all 0.3s;
 }
+
+.huge:hover {
+  transform: scale(1.02);
+}
+.whit{
+  color: white;
+  font-size: 20px;
+}
+.rightsidehome{
+  width: 16.5%;
+  height: 5vh;
+  margin-Left: 1%;
+  position: relative;
+  overflow: visible;
+  box-sizing: border-box;
+  min-height: 1px;
+}
+.static{
+  padding-top: 0px;
+  padding-bottom: 1px;
+  position: sticky;
+  transform: none;
+}
+.hoverin{
+  transform: scale(1);
+  display: block;
+  transition: all 0.3s;
+}
+
+.hoverin:hover {
+  transform: scale(1.02);
+}
+.titlehover{
+
+  opacity: 0.6;
+  transition: 0.3s;
+  color: white;
+  }
+  .titlehover:hover{
+    color: red;
+    opacity: 1;
+  }
